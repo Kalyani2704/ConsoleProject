@@ -1,0 +1,39 @@
+@RELATION hotel_dataset
+
+@ATTRIBUTE guest_id REAL
+@ATTRIBUTE hotel_id REAL
+@ATTRIBUTE rating REAL
+@ATTRIBUTE location {Amravati,Mumbai,Pune}
+@ATTRIBUTE price REAL
+
+@DATA
+2,4,6,Amravati,4428
+1,6,8,Mumbai,3130
+3,6,6,Mumbai,3130
+4,6,8,Mumbai,3130
+5,6,4,Mumbai,3130
+6,6,8,Mumbai,3130
+7,6,7,Mumbai,3130
+8,6,5,Mumbai,3130
+9,6,9,Mumbai,3130
+5,7,7,Mumbai,5199
+6,7,6,Mumbai,5199
+8,7,6,Mumbai,5199
+9,7,5,Mumbai,5199
+7,7,5,Mumbai,5199
+1,9,9,Mumbai,4885
+1,9,5,Mumbai,4885
+2,9,8,Mumbai,4885
+3,9,7,Mumbai,4885
+4,9,7,Mumbai,4885
+1,9,8,Mumbai,4885
+2,10,4,Mumbai,4180
+3,10,8,Mumbai,4180
+1,10,3,Mumbai,4180
+3,10,6,Mumbai,4180
+4,10,6,Mumbai,4180
+6,10,5,Mumbai,4180
+5,10,7,Mumbai,4180
+9,10,6,Mumbai,4180
+2,14,5,Pune,4702
+1,14,6,Pune,4702
